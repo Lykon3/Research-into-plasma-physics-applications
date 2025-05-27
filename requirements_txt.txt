@@ -1,0 +1,54 @@
+# Core Scientific Computing
+numpy>=1.21.0
+scipy>=1.7.0
+matplotlib>=3.4.0
+pandas>=1.3.0
+
+# Machine Learning
+tensorflow>=2.8.0
+torch>=1.12.0
+torchvision>=0.13.0
+scikit-learn>=1.0.0
+
+# Plasma Physics & Fusion Specific
+h5py>=3.6.0          # HDF5 data format common in fusion
+netCDF4>=1.5.8        # NetCDF format for scientific data
+xarray>=0.20.0        # Multi-dimensional arrays
+
+# Advanced Analysis
+statsmodels>=0.13.0   # Statistical analysis
+seaborn>=0.11.0       # Statistical visualization
+plotly>=5.5.0         # Interactive plotting
+bokeh>=2.4.0          # Interactive visualization
+
+# Physics-Informed ML
+jax>=0.3.0            # JAX for scientific computing
+jaxlib>=0.3.0
+flax>=0.5.0           # Neural networks in JAX
+
+# Numerical Methods
+sympy>=1.9.0          # Symbolic mathematics
+numba>=0.56.0         # JIT compilation for performance
+dask>=2021.10.0       # Parallel computing
+
+# Data Processing
+tqdm>=4.62.0          # Progress bars
+joblib>=1.1.0         # Parallel processing
+psutil>=5.8.0         # System monitoring
+
+# Development & Testing
+pytest>=6.2.0
+pytest-cov>=3.0.0
+black>=21.9.0         # Code formatting
+flake8>=4.0.0         # Linting
+mypy>=0.910           # Type checking
+
+# Documentation
+sphinx>=4.2.0
+sphinx-rtd-theme>=1.0.0
+nbsphinx>=0.8.0       # Jupyter notebook docs
+
+# Optional GPU acceleration
+# Uncomment if using CUDA-enabled systems
+# cupy-cuda11x>=9.6.0
+# tensorflow-gpu>=2.8.0
